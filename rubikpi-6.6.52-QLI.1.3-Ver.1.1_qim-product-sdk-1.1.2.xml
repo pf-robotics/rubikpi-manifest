@@ -9,6 +9,7 @@
   <remote fetch="https://github.com/ros" name="ros" review="github.com"/>
   <remote fetch="https://github.com/meta-qt5" name="meta-qt5" review="github.com"/>  
   <remote fetch="https://github.com/rubikpi-ai" name="rubikpi" review="github.com"/>
+  <remote fetch="git@github.com:pf-robotics" name="pf-robotics" review="github.com"/>
   <remote fetch="https://git.codelinaro.org" name="codelinaro" review="git.codelinaro.org"/>
   <default remote="github" revision="refs/heads/kirkstone" sync-j="8"/>
 
@@ -26,7 +27,7 @@
     <linkfile dest="setup-environment" src="set_bb_env.sh"/>
   </project>
 
-  <project name="meta-rubikpi" path="layers/meta-rubikpi" remote="rubikpi" revision="d1bf68226237c0f6c095b87e38933d267bfa1fec" upstream="main">
+  <project name="meta-rubikpi" path="layers/meta-rubikpi" remote="pf-robotics" revision="6bef3a9dbf969e103d86c28d9199cf599952a68c" upstream="pfr-main">
     <linkfile dest="setup-environment_RUBIKPi" src="set_bb_env.sh"/>
   </project>
   <project name="meta-rubikpi-extras" path="layers/meta-rubikpi-extras" remote="rubikpi" revision="2d30f6a4ad4c52cf774d783243ffd5c2c2ef3380" upstream="main"/>
