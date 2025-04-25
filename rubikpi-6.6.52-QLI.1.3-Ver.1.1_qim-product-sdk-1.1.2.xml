@@ -27,7 +27,7 @@
     <linkfile dest="setup-environment" src="set_bb_env.sh"/>
   </project>
 
-  <project name="meta-rubikpi" path="layers/meta-rubikpi" remote="pf-robotics" revision="0a7b639f9c049925d575ac57b6e6a793968d92e6" upstream="pfr-main">
+  <project name="meta-rubikpi" path="layers/meta-rubikpi" remote="pf-robotics" revision="e8cd075bd47fa617308d0a54ede3acb2b0b361d1" upstream="pfr-main">
     <linkfile dest="setup-environment_RUBIKPi" src="set_bb_env.sh"/>
   </project>
   <project name="meta-rubikpi-extras" path="layers/meta-rubikpi-extras" remote="rubikpi" revision="2d30f6a4ad4c52cf774d783243ffd5c2c2ef3380" upstream="main"/>
