@@ -19,6 +19,7 @@
   <project name="meta-security" path="layers/meta-security" remote="yocto" revision="353078bc06c8b471736daab6ed193e30d533d1f1" upstream="refs/heads/kirkstone"/>
   <project name="meta-virtualization" path="layers/meta-virtualization" remote="yocto" revision="02a6c00d9370992a54296633de26a13a9a08ca2a" upstream="refs/heads/kirkstone"/>
   <project name="meta-selinux" path="layers/meta-selinux" remote="yocto" revision="a401f4b2816a0b41ce8d9351542658c721935bcd" upstream="refs/heads/kirkstone"/>
+  <project name="meta-cloud-services" path="layers/meta-cloud-services" remote="yocto" revision="783826eceb1b09496099f00a008062c0f9f4ee4e" upstream="refs/heads/kirkstone"/>
   <project name="meta-rust" path="layers/meta-rust" remote="rust" revision="9611b42d73c7546c3d845da380943a0a4f4205f0" upstream="refs/heads/master"/>
   <project name="meta-updater" path="layers/meta-updater" remote="updater" revision="3d57c37509fef259c5a5c150b88466ff367e305f" upstream="refs/heads/kirkstone"/>
 
@@ -27,7 +28,7 @@
     <linkfile dest="setup-environment" src="set_bb_env.sh"/>
   </project>
 
-  <project name="meta-rubikpi" path="layers/meta-rubikpi" remote="pf-robotics" revision="e31022cbdfd2cc56a873bc5fb40e0d658683e855" upstream="pfr-main">
+  <project name="meta-rubikpi" path="layers/meta-rubikpi" remote="pf-robotics" revision="7167fa2c57e0fe24414683ea9942bb9291026b0f" upstream="pfr-main">
     <linkfile dest="setup-environment_RUBIKPi" src="set_bb_env.sh"/>
   </project>
   <project name="meta-rubikpi-extras" path="layers/meta-rubikpi-extras" remote="rubikpi" revision="2d30f6a4ad4c52cf774d783243ffd5c2c2ef3380" upstream="main"/>
