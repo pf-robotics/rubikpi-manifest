@@ -9,6 +9,7 @@
   <remote fetch="https://github.com/ros" name="ros" review="github.com"/>
   <remote fetch="https://github.com/meta-qt5" name="meta-qt5" review="github.com"/>
   <remote fetch="https://github.com/rubikpi-ai" name="rubikpi" review="github.com"/>
+  <remote fetch="git@github.com:pf-robotics" name="pf-robotics" review="github.com"/>
   <remote fetch="https://git.codelinaro.org" name="codelinaro" review="git.codelinaro.org"/>
   <default remote="github" revision="refs/heads/kirkstone" sync-j="8"/>
 
@@ -18,6 +19,7 @@
   <project name="meta-security" path="layers/meta-security" remote="yocto" revision="353078bc06c8b471736daab6ed193e30d533d1f1" upstream="refs/heads/kirkstone"/>
   <project name="meta-virtualization" path="layers/meta-virtualization" remote="yocto" revision="02a6c00d9370992a54296633de26a13a9a08ca2a" upstream="refs/heads/kirkstone"/>
   <project name="meta-selinux" path="layers/meta-selinux" remote="yocto" revision="a401f4b2816a0b41ce8d9351542658c721935bcd" upstream="refs/heads/kirkstone"/>
+  <project name="meta-cloud-services" path="layers/meta-cloud-services" remote="yocto" revision="783826eceb1b09496099f00a008062c0f9f4ee4e" upstream="refs/heads/kirkstone"/>
   <project name="meta-rust" path="layers/meta-rust" remote="rust" revision="9611b42d73c7546c3d845da380943a0a4f4205f0" upstream="refs/heads/master"/>
   <project name="meta-updater" path="layers/meta-updater" remote="updater" revision="3d57c37509fef259c5a5c150b88466ff367e305f" upstream="refs/heads/kirkstone"/>
 
@@ -26,7 +28,7 @@
     <linkfile dest="setup-environment" src="set_bb_env.sh"/>
   </project>
 
-  <project name="meta-rubikpi" path="layers/meta-rubikpi" remote="rubikpi" revision="f134cf4d26b93ecacffa0a585468ecc2f189e87f" upstream="main">
+  <project name="meta-rubikpi" path="layers/meta-rubikpi" remote="pf-robotics" revision="f134cf4d26b93ecacffa0a585468ecc2f189e87f" upstream="main">
     <linkfile dest="setup-environment_RUBIKPi" src="set_bb_env.sh"/>
   </project>
   <project name="meta-rubikpi-extras" path="layers/meta-rubikpi-extras" remote="rubikpi" revision="2d30f6a4ad4c52cf774d783243ffd5c2c2ef3380" upstream="main"/>
@@ -35,7 +37,7 @@
   </project>
   <project name="meta-ros" path="layers/meta-ros" remote="ros" revision="b4db6314bae1c78498158e267200a9c15a739cad" upstream="kirkstone"/>
   <project name="meta-qt5" path="layers/meta-qt5" remote="meta-qt5" revision="644ebf220245bdc06e7696ccc90acc97a0dd2566" upstream="kirkstone"/>
-  <project name="linux" path="src/vendor/qcom/opensource/kernel-6.6" remote="rubikpi" revision="6b0436673f5e7958a27d72b671f40783ffa89077" upstream="main"/>
+  <project name="rubikpi-linux" path="src/vendor/qcom/opensource/kernel-6.6" remote="pf-robotics" revision="6b0436673f5e7958a27d72b671f40783ffa89077" upstream="main"/>
   <project name="prebuilt" path="src/vendor/thundercomm/prebuilt/BP-BINs" remote="rubikpi" revision="c2e7e27f0cf87ea88d5357409186972a1997f8ce" upstream="BP-BINs"/>
   <project name="prebuilt" path="src/vendor/qcom/proprietary/chi-cdk-kt" remote="rubikpi" revision="2f417e4593dd04eab44b40a4324d41c4c8e47a49" upstream="chicdk-kt"/>
   <project name="device-tree" path="src/vendor/qcom/opensource/kernel-6.6/arch/arm64/boot/dts/thundercomm" remote="rubikpi" revision="7afff4e8cfe6b691071ed89e59dd07be9a3c3ac3" upstream="main"/>
@@ -43,4 +45,8 @@
 
   <project name="clo/le/platform/vendor/opensource/camera-kernel" path="src/vendor/qcom/opensource/kernel-6.6/techpack/camera-kernel" remote="codelinaro" revision="e72414038e85e755aed60d53118e0c529a305649" upstream="camera-kernel.qclinux.1.0.r1-rel"/>
   <project name="meta-qcom-qim-product-sdk" path="layers/meta-qcom-qim-product-sdk" remote="github" revision="47c681741cafa3edc7949f878013448e03c6911c" upstream="refs/heads/kirkstone"/>
+  <project name="pfr-rubikpi-script" path="pfr-rubikpi-script" remote="pf-robotics" revision="7a4beb379bb31df3344c3a8145ef4c1a3e199500" upstream="refs/heads/main">
+    <linkfile dest="pfr-build.sh" src="build.sh"/>
+    <linkfile dest="pfr-after-build.sh" src="after-build.sh"/>
+  </project>
 </manifest>

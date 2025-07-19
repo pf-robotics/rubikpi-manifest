@@ -7,7 +7,7 @@
   <remote fetch="https://github.com/meta-rust" name="rust" review="github.com"/>
   <remote fetch="https://github.com/uptane" name="updater" review="github.com"/>
   <remote fetch="https://github.com/ros" name="ros" review="github.com"/>
-  <remote fetch="https://github.com/meta-qt5" name="meta-qt5" review="github.com"/>  
+  <remote fetch="https://github.com/meta-qt5" name="meta-qt5" review="github.com"/>
   <remote fetch="https://github.com/rubikpi-ai" name="rubikpi" review="github.com"/>
   <remote fetch="git@github.com:pf-robotics" name="pf-robotics" review="github.com"/>
   <remote fetch="https://git.codelinaro.org" name="codelinaro" review="git.codelinaro.org"/>
