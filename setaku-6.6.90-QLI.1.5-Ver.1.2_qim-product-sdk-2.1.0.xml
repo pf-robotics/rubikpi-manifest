@@ -33,11 +33,8 @@
   </project>
   <project name="meta-rubikpi-bsp" path="layers/meta-rubikpi-bsp" remote="pf-robotics" revision="5575b79855d94f3b5394cbc2ee0dfdb173b8ccb0" upstream="scarthgap-bsp-tof-2025-09-30"/>
   <project name="meta-rubikpi-extras" path="layers/QCM6490.LE.1.0/meta-rubikpi-extras" remote="rubikpi" revision="fcbf366111313497e67f1b100fe59c0b481f047f" upstream="main"/>
-  <project name="rubikpi-script" path="rubikpi" remote="rubikpi" revision="c612e28d4aeb2a66b4c276754e87a43654d7d221" upstream="yocto_kirkstone">
-    <linkfile dest="rubikpi_build.sh" src="tools/build_script/common/rubikpi_build.sh"/>
-  </project>
   <project name="meta-qt5" path="layers/meta-qt5" remote="meta-qt5" revision="554fc20c326a9b205169331644f0cb471619e63c" upstream="scarthgap"/>
-  <project name="qcom_kernel_research" path="src/vendor/qcom/opensource/kernel-6.6" remote="pf-robotics" revision="a7bc4903ebdb24c48f3546a71547319b00e6ca05" upstream="pfr-6.6.90-setaku"/>
+  <project name="qcom_kernel_research" path="src/vendor/qcom/opensource/kernel-6.6" remote="pf-robotics" revision="a3734c480d1d6d3debdbaaa260d2ee9ca78628b8" upstream="pfr-6.6.90-setaku"/>
   <project name="prebuilt" path="src/vendor/thundercomm/prebuilt/BP-BINs" remote="rubikpi" revision="396e4ebf763ce88522f24d2f1746398939fa017f" upstream="BP-BINs"/>
   <project name="prebuilt" path="src/vendor/qcom/proprietary/chi-cdk-kt" remote="pf-robotics" revision="6fc0fe46d2c7c967511e4763fa0e9d3cc3eac72e" upstream="scarthgap-chi-cdk-kt-tof-2025-09-30"/>
   <project name="rubikpi-device-tree" path="src/vendor/qcom/opensource/kernel-6.6/arch/arm64/boot/dts/thundercomm" remote="pf-robotics" revision="bfbb0e84b50221ca6b71f109e6eac052bdcf57fb" upstream="scarthgap-tof-2025-09-30"/>
