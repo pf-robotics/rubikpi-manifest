@@ -34,7 +34,7 @@
   <project name="meta-rubikpi-bsp" path="layers/meta-rubikpi-bsp" remote="rubikpi" revision="3cb0d75534fd6b04bd75e820654a929a7a9fd715" upstream="main"/>
   <project name="meta-rubikpi-extras" path="layers/QCM6490.LE.1.0/meta-rubikpi-extras" remote="rubikpi" revision="fcbf366111313497e67f1b100fe59c0b481f047f" upstream="main"/>
   <project name="meta-qt5" path="layers/meta-qt5" remote="meta-qt5" revision="554fc20c326a9b205169331644f0cb471619e63c" upstream="scarthgap"/>
-  <project name="qcom_kernel_research" path="src/vendor/qcom/opensource/kernel-6.6" remote="pf-robotics" revision="95245a24ff6df0fe4c239c4f2bb2fde829e1166b" upstream="pfr-6.6.90-setaku"/>
+  <project name="qcom_kernel_research" path="src/vendor/qcom/opensource/kernel-6.6" remote="pf-robotics" revision="refs/heads/pfr-6.6.90-setaku" upstream="pfr-6.6.90-setaku"/>
   <project name="prebuilt" path="src/vendor/thundercomm/prebuilt/BP-BINs" remote="rubikpi" revision="396e4ebf763ce88522f24d2f1746398939fa017f" upstream="BP-BINs"/>
   <project name="prebuilt" path="src/vendor/qcom/proprietary/chi-cdk-kt" remote="rubikpi" revision="e8a88c4a896a3c16223ee06efe80d762bf853cb0" upstream="chicdk-kt"/>
 
