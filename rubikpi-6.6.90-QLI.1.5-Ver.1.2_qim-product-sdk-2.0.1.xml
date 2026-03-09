@@ -18,9 +18,6 @@
   <project name="meta-selinux" path="layers/meta-selinux" remote="yocto" revision="4fbbcab2cb452c9430cba780e7cb11b2165c997a" upstream="refs/heads/scarthgap"/>
   <project name="meta-updater" path="layers/meta-updater" remote="updater" revision="92f0e7aa93966e184beb1ccdfea6c8fdb27d2b18" upstream="refs/heads/scarthgap"/>
   <project name="meta-tensorflow" path="layers/meta-tensorflow" remote="yocto" revision="1a0c74c9666db0d89c20c9c85b4377931476886c" upstream="refs/heads/scarthgap"/>
-  
-    <linkfile dest="setup-environment" src="set_bb_env.sh"/>
-  </project>
 
   <project name="meta-rubikpi-distro" path="layers/meta-rubikpi-distro" remote="rubikpi" revision="ad2d822c0b534cb36fba7f7999c424e58f076a36" upstream="main">
     <linkfile dest="setup-environment_RUBIKPi" src="set_bb_env.sh"/>
