@@ -23,7 +23,6 @@
     <linkfile dest="setup-environment_RUBIKPi" src="set_bb_env.sh"/>
   </project>
   <project name="meta-rubikpi-bsp" path="layers/meta-rubikpi-bsp" remote="rubikpi" revision="3cb0d75534fd6b04bd75e820654a929a7a9fd715" upstream="main"/>
-  <project name="meta-rubikpi-extras" path="layers/QCM6490.LE.1.0/meta-rubikpi-extras" remote="rubikpi" revision="fcbf366111313497e67f1b100fe59c0b481f047f" upstream="main"/>
   <project name="rubikpi-script" path="rubikpi" remote="rubikpi" revision="c612e28d4aeb2a66b4c276754e87a43654d7d221" upstream="yocto_kirkstone">
     <linkfile dest="rubikpi_build.sh" src="tools/build_script/common/rubikpi_build.sh"/>
   </project>
